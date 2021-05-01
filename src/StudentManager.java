@@ -1,24 +1,24 @@
 
 public class StudentManager extends UserManager {
 	
-	public void singUp(Student student) {
-		System.out.println(student.getFirstName()+" kodlama.io sitesine kaydınız başarı ile yapılmıştır.");
+	public void SingUp(Student student) {
+		System.out.println(student.getFirstName()+" kodlama.io sitesine kaydÃ½nÃ½z baÃ¾arÃ½ ile yapÃ½lmÃ½Ã¾tÃ½r.");
 	}
 	
-	public void removeAccount(Student student) {
-		System.out.println(student.getFirstName()+" kodlama.io sitesine kaydınız silinmiştir.");
+	public void RemoveAccount(Student student) {
+		System.out.println(student.getFirstName()+" kodlama.io sitesine kaydÃ½nÃ½z silinmiÃ¾tir.");
 	}
 	
-	public void joinCources(Student student) {
+	public void JoinCources(Student student) {
 		
-		System.out.println(student.getFirstName()+" "+" adlı öğrencinin "+student.getMyCourse()+
-		" adlı kursa kaydı başarı ile yapılmıştır.");
+		System.out.println(student.getFirstName()+" "+" adlÃ½ Ã¶Ã°rencinin "+student.getMyCourse()+
+		" adlÃ½ kursa kaydÃ½ baÃ¾arÃ½ ile yapÃ½lmÃ½Ã¾tÃ½r.");
 	}
 	
-	public void removeCources(Student student) {
+	public void RemoveCources(Student student) {
 		
 		System.out.println(student.getFirstName()+" "+
-		" adlı öğrencinin+"+ student.getMyCourse() +" kursundan kaydı silinmiştir.");
+		" adlÃ½ Ã¶Ã°rencinin+"+ student.getMyCourse() +" kursundan kaydÃ½ silinmiÃ¾tir.");
 	}
 
 }
